@@ -1,0 +1,16 @@
+{
+  "name": "weweb",
+  "version": "1.0.0",
+  "description": "a simple web framework from node.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "formidable": "^1.0.17",
+    "mime": "^1.3.4"
+  },
+  "devDependencies": {},
+  "author": "ejunjsh",
+  "license": "ISC"
+}
