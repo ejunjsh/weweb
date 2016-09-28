@@ -8,4 +8,4 @@ a nodejs webapp
 # npm start
 ```
 
-visit: [http://localhost:4090/static/index.html](http://localhost:4090/static/index.html)
+and then visit: [http://localhost:4090/static/index.html](http://localhost:4090/static/index.html)
