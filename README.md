@@ -1,5 +1,5 @@
 # weweb
-a nodejs webapp
+a nodejs webapp framework
 
 ### install and run a sample
 
