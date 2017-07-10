@@ -87,7 +87,7 @@ var handler = function (req, res, stacks) {
         var middleware = stacks.shift();
         if (middleware) {
             try {
-                middleware(req, res, next);
+                middleware.call(app,req, res, next);
             }
             catch (err) {
                 next(err);
@@ -113,7 +113,7 @@ var handler500 = function (err, req, res, stacks) {
     var next = function () {
         var middleware = stacks.shift();
         if (middleware) {
-            middleware(err, req, res, next);
+            middleware.call(app,err, req, res, next);
         }
     };
     next();
@@ -142,5 +142,7 @@ app.bind = function (req, res) {
     }
     
 };
+
+app.ROOT=require("path").dirname(require.main.filename);
 
 module.exports = app;

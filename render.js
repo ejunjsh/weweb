@@ -39,7 +39,6 @@ var compile = function (str) {
     tpl = tpl.replace(/''/g, '\'\\n\'');
     tpl = tpl.replace(/\r/g, '');
     tpl = 'var tpl = "";\nwith (obj || {}) {\n' + tpl + '\n}\nreturn tpl;';
-    console.log(tpl);
     return new Function('obj', 'escape', tpl);
 
 };
@@ -98,7 +97,7 @@ var renderLayout = function (text) {
 };
 
 module.exports = function (req, res, next) {
-
+    VIEW_FOLDER=this.ROOT;
     res.sendFile = function (filepath) {
         fs.stat(filepath, function (err, stat) {
             if (err) {
