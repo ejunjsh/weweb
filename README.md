@@ -2,6 +2,7 @@
 a nodejs webapp framework
 
 [![npm](https://img.shields.io/npm/v/weweb.svg?style=flat-square)](https://www.npmjs.com/package/weweb)
+[![npm](https://img.shields.io/npm/dt/weweb.svg?style=flat-square)](https://www.npmjs.com/package/weweb)
 ### install and run a sample
 
 ```bash
