@@ -1,6 +1,6 @@
 {
   "name": "weweb",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "a simple web framework from node.js",
   "main": "main.js",
   "scripts": {
