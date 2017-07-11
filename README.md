@@ -5,6 +5,7 @@ just for people to know how express works,inspired by <nodejs 深入浅出>
 
 [![npm](https://img.shields.io/npm/v/weweb.svg?style=flat-square)](https://www.npmjs.com/package/weweb)
 [![npm](https://img.shields.io/npm/dt/weweb.svg?style=flat-square)](https://www.npmjs.com/package/weweb)
+[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star)](https://github.com/ejunjsh)
 ## install and run a sample
 
 ```bash
